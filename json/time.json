@@ -1,0 +1,809 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "Accelerometer",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "ADCSRateGroup",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "Beacon",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "BeaconRateGroup",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "BufferManager",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "Camera",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "CommandDisp",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "CommandSeq",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "CoreRateGroup",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "EventLogger",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "FatalHandler",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "FileDownlink",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "FileManager",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "FileUplink",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "Gyroscope",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "HIPO",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "Magnetometer",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "MemoryScrubber",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "PacketFramer",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "ParameterDatabase",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "PayloadRateGroup",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "PolyDatabase",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "Power",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "SolarArray",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "Thermal",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "UHF",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "Time",
+        "inputPorts" : [
+          {
+            "name" : "getTime",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "updateTime",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "ClockSynch",
+        "inputPorts" : [
+          {
+            "name" : "updateTimeReq",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "updateTimeReq",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "GPS",
+        "inputPorts" : [
+          {
+            "name" : "updatedTime",
+            "portNumbers" : [
+              1
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        0,
+        19,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        13,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        16,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        21,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        25,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        12,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        14,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        24,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        22,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        23,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        11,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        18,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        17,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  ]
+}

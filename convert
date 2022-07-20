@@ -1,0 +1,6 @@
+for file in `ls txt/*.txt`
+do
+echo "laying out $file"
+base=`basename $file .txt`
+fpl-layout < txt/$base.txt > json/$base.json
+done

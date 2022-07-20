@@ -1,0 +1,48 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "EventLogger",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "fatalAnnounce",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "FaultHandler",
+        "inputPorts" : [
+          {
+            "name" : "fatalReceive",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "RateGroupDriver",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "CycleOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "Telemetry",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "telemOut",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "pktSend",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "EventLogger",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "pktSend",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "FileDownlink",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "eventOut",
+            "portNumbers" : [
+              1
+            ]
+          },
+          {
+            "name" : "bufferOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "BeaconRateGroup",
+        "inputPorts" : [
+          {
+            "name" : "CycleIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "RateGroupOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "ComLogger",
+        "inputPorts" : [
+          {
+            "name" : "eventIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      }
+    ],
+    [
+      {
+        "instanceName" : "Beacon",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "telemIn",
+            "portNumbers" : [
+              1
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "packetOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "PacketFramer",
+        "inputPorts" : [
+          {
+            "name" : "packetIn",
+            "portNumbers" : [
+              3
+            ]
+          },
+          {
+            "name" : "frameAllocate",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "telemIn",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "eventIn",
+            "portNumbers" : [
+              1
+            ]
+          },
+          {
+            "name" : "bufferIn",
+            "portNumbers" : [
+              2
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "frameOut",
+            "portNumbers" : [
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "UHF",
+        "inputPorts" : [
+          {
+            "name" : "sendFrame",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "bufferOut",
+            "portNumbers" : [
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "BufferManager",
+        "inputPorts" : [
+          {
+            "name" : "bufferDeallocate",
+            "portNumbers" : [
+              1
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "bufferAllocate",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        4,
+        0,
+        0,
+        3
+      ],
+      [
+        5,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        4,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        4,
+        2
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        2,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  ]
+}

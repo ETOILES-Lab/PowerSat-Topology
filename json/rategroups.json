@@ -1,0 +1,527 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "RateGroupDriver",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "CycleOut",
+            "portNumbers" : [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "PayloadRateGroup",
+        "inputPorts" : [
+          {
+            "name" : "CycleIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "RateGroupOut",
+            "portNumbers" : [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "CoreRateGroup",
+        "inputPorts" : [
+          {
+            "name" : "CycleIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "RateGroupOut",
+            "portNumbers" : [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "ADCSRateGroup",
+        "inputPorts" : [
+          {
+            "name" : "CycleIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "RateGroupOut",
+            "portNumbers" : [
+              0,
+              1,
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "SolarArray",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "HIPO",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "MemoryScrubber",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "ClockSynch",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "Thermal",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "Power",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "BufferManager",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "FileDownlink",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "Telemetry",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "CommandSeq",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "Health",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "Accelerometer",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "Gyroscope",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "Magnetometer",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "GPS",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        1,
+        1,
+        0,
+        8
+      ],
+      [
+        2,
+        10,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        5
+      ],
+      [
+        2,
+        7,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        4
+      ],
+      [
+        2,
+        6,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        3,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        4,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        11,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        0,
+        5
+      ],
+      [
+        2,
+        14,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        12,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        6
+      ],
+      [
+        2,
+        8,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        13,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        7
+      ],
+      [
+        2,
+        9,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        5,
+        0,
+        0
+      ]
+    ]
+  ]
+}

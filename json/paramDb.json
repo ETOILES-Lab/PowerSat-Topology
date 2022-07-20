@@ -1,0 +1,102 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "ParameterDatabase",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "paramOut",
+            "portNumbers" : [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "Power",
+        "inputPorts" : [
+          {
+            "name" : "paramIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "Thermal",
+        "inputPorts" : [
+          {
+            "name" : "paramIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "HIPO",
+        "inputPorts" : [
+          {
+            "name" : "paramIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "UHF",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "receiveFrame",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "allocateReq",
+            "portNumbers" : [
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "PacketDeframer",
+        "inputPorts" : [
+          {
+            "name" : "frameIn",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "cmdResponseIn",
+            "portNumbers" : [
+              1
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "cmdOut",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "bufferDeallocateReq",
+            "portNumbers" : [
+              1
+            ]
+          },
+          {
+            "name" : "bufferOut",
+            "portNumbers" : [
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "CommandDisp",
+        "inputPorts" : [
+          {
+            "name" : "cmdIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "cmdResponseOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "FileUplink",
+        "inputPorts" : [
+          {
+            "name" : "bufferIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "bufferDeallocateReq",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "eventOut",
+            "portNumbers" : [
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "BufferManager",
+        "inputPorts" : [
+          {
+            "name" : "bufferAllocate",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "bufferDeallocate",
+            "portNumbers" : [
+              1
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "ComLogger",
+        "inputPorts" : [
+          {
+            "name" : "eventIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        3,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        0
+      ]
+    ]
+  ]
+}
