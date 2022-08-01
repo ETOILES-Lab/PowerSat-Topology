@@ -277,6 +277,27 @@
             ]
           }
         ],
+        "outputPorts" : [
+          {
+            "name" : "pktSend",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "ComLogger",
+        "inputPorts" : [
+          {
+            "name" : "comIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
         "outputPorts" : []
       }
     ]
@@ -361,6 +382,20 @@
       ],
       [
         1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
         0,
         0,
         0

@@ -5,33 +5,19 @@ PacketDeframer
 frameIn
 0
 
-UHF
-allocateReq
-1
-BufferManager
-bufferAllocate
-0
-
 PacketDeframer
-cmdOut
+comOut
 0
 CommandDisp
-cmdIn
+seqCmdBuff
 0
 
 PacketDeframer
-bufferDeallocateReq
-1
-BufferManager
 bufferDeallocate
 1
-
-CommandDisp
-cmdResponseOut
+BufferManager
+bufferSendIn
 0
-PacketDeframer
-cmdResponseIn
-1
 
 PacketDeframer
 bufferOut
@@ -40,16 +26,23 @@ FileUplink
 bufferIn
 0
 
-FileUplink
-bufferDeallocateReq
-0
+PacketDeframer
+bufferAllocate
+3
 BufferManager
-bufferDeallocate
+bufferGetCallee
 1
 
 FileUplink
-eventOut
-1
-ComLogger
-eventIn
+bufferSendOut
+0
+BufferManager
+bufferSendIn
+0
+
+PacketDeframer
+cmdResponseIn
+4
+CommandDisp
+compCmdStat
 0

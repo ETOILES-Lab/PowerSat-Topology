@@ -151,3 +151,10 @@ telemOut
 Telemetry
 telemIn
 0
+
+Telemetry
+pktSend
+0
+ComLogger
+comIn
+0

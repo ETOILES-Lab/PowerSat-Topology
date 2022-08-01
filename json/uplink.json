@@ -10,12 +10,6 @@
             "portNumbers" : [
               0
             ]
-          },
-          {
-            "name" : "allocateReq",
-            "portNumbers" : [
-              1
-            ]
           }
         ]
       }
@@ -29,23 +23,29 @@
             "portNumbers" : [
               0
             ]
-          },
-          {
-            "name" : "cmdResponseIn",
-            "portNumbers" : [
-              1
-            ]
           }
         ],
         "outputPorts" : [
           {
-            "name" : "cmdOut",
+            "name" : "cmdResponseIn",
+            "portNumbers" : [
+              4
+            ]
+          },
+          {
+            "name" : "comOut",
             "portNumbers" : [
               0
             ]
           },
           {
-            "name" : "bufferDeallocateReq",
+            "name" : "bufferAllocate",
+            "portNumbers" : [
+              3
+            ]
+          },
+          {
+            "name" : "bufferDeallocate",
             "portNumbers" : [
               1
             ]
@@ -64,20 +64,19 @@
         "instanceName" : "CommandDisp",
         "inputPorts" : [
           {
-            "name" : "cmdIn",
+            "name" : "compCmdStat",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "seqCmdBuff",
             "portNumbers" : [
               0
             ]
           }
         ],
-        "outputPorts" : [
-          {
-            "name" : "cmdResponseOut",
-            "portNumbers" : [
-              0
-            ]
-          }
-        ]
+        "outputPorts" : []
       },
       {
         "instanceName" : "FileUplink",
@@ -91,15 +90,9 @@
         ],
         "outputPorts" : [
           {
-            "name" : "bufferDeallocateReq",
+            "name" : "bufferSendOut",
             "portNumbers" : [
               0
-            ]
-          },
-          {
-            "name" : "eventOut",
-            "portNumbers" : [
-              1
             ]
           }
         ]
@@ -110,27 +103,15 @@
         "instanceName" : "BufferManager",
         "inputPorts" : [
           {
-            "name" : "bufferAllocate",
+            "name" : "bufferSendIn",
             "portNumbers" : [
               0
             ]
           },
           {
-            "name" : "bufferDeallocate",
+            "name" : "bufferGetCallee",
             "portNumbers" : [
               1
-            ]
-          }
-        ],
-        "outputPorts" : []
-      },
-      {
-        "instanceName" : "ComLogger",
-        "inputPorts" : [
-          {
-            "name" : "eventIn",
-            "portNumbers" : [
-              0
             ]
           }
         ],
@@ -141,13 +122,13 @@
   "connections" : [
     [
       [
+        1,
+        0,
         2,
-        0,
-        0,
-        0
+        3
       ],
       [
-        1,
+        3,
         0,
         1,
         1
@@ -155,9 +136,51 @@
     ],
     [
       [
+        2,
         1,
         0,
-        2,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        4,
         2
       ],
       [
@@ -169,57 +192,15 @@
     ],
     [
       [
-        2,
         1,
         0,
-        0
-      ],
-      [
-        3,
-        0,
         1,
-        1
-      ]
-    ],
-    [
-      [
-        0,
-        0,
-        0,
-        0
-      ],
-      [
-        1,
-        0,
-        0,
-        0
-      ]
-    ],
-    [
-      [
-        2,
-        1,
-        1,
-        1
-      ],
-      [
-        3,
-        1,
-        0,
-        0
-      ]
-    ],
-    [
-      [
-        1,
-        0,
-        0,
         0
       ],
       [
         2,
         0,
-        0,
+        1,
         0
       ]
     ],
@@ -227,25 +208,11 @@
       [
         1,
         0,
-        1,
-        1
+        0,
+        4
       ],
       [
-        3,
-        0,
-        1,
-        1
-      ]
-    ],
-    [
-      [
-        0,
-        0,
-        1,
-        1
-      ],
-      [
-        3,
+        2,
         0,
         0,
         0

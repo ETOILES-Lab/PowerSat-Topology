@@ -116,7 +116,7 @@
         ]
       },
       {
-        "instanceName" : "FaultHandler",
+        "instanceName" : "FatalHandler",
         "inputPorts" : [
           {
             "name" : "pingIn",
@@ -174,25 +174,6 @@
       },
       {
         "instanceName" : "FileUplink",
-        "inputPorts" : [
-          {
-            "name" : "pingIn",
-            "portNumbers" : [
-              0
-            ]
-          }
-        ],
-        "outputPorts" : [
-          {
-            "name" : "pingOut",
-            "portNumbers" : [
-              0
-            ]
-          }
-        ]
-      },
-      {
-        "instanceName" : "ParameterDatabase",
         "inputPorts" : [
           {
             "name" : "pingIn",
@@ -272,7 +253,7 @@
     ],
     [
       {
-        "instanceName" : "PolyDatabase",
+        "instanceName" : "ParameterDatabase",
         "inputPorts" : [
           {
             "name" : "pingIn",
@@ -311,20 +292,6 @@
       [
         2,
         0,
-        0,
-        0
-      ],
-      [
-        1,
-        0,
-        0,
-        0
-      ]
-    ],
-    [
-      [
-        0,
-        10,
         0,
         0
       ],
@@ -394,7 +361,7 @@
     [
       [
         0,
-        11,
+        10,
         0,
         0
       ],
@@ -408,7 +375,7 @@
     [
       [
         0,
-        12,
+        11,
         0,
         0
       ],

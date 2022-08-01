@@ -113,11 +113,11 @@ pingRecv
 Health
 pingSend
 0
-FaultHandler
+FatalHandler
 pingIn
 0
 
-FaultHandler
+FatalHandler
 pingOut
 0
 Health
@@ -179,21 +179,6 @@ pingOut
 Health
 pingRecv
 0
-
-Health
-pingSend
-0
-PolyDatabase
-pingIn
-0
-
-PolyDatabase
-pingOut
-0
-Health
-pingRecv
-0
-
 
 
 

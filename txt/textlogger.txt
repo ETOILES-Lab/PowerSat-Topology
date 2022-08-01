@@ -1,139 +1,132 @@
 Accelerometer
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 Gryoscope
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 Magnetometer
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 GPS
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 SolarArray
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 HIPO
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 Camera
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 Power
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 Thermal
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 ClockSynch
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 MemoryScrubber
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 Beacon
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 UHF
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 Health
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 BufferManager
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 Time
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 FileManager
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 PacketFramer
 eventOut
 0
-EventLogger
-eventRecv
+ActiveTextLogger
+logText
 0
 
 PacketDeframer
 eventOut
 0
-EventLogger
-eventRecv
-0
-
-EventLogger
-pktSend
-0
-ComLogger
-comIn
+ActiveTextLogger
+logText
 0

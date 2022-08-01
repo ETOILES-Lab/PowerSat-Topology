@@ -123,3 +123,17 @@ RateGroupOut
 GPS
 Sched
 0
+
+RateGroupDriver
+CycleOut
+3
+BeaconRateGroup
+CycleIn
+0
+
+BeaconRateGroup
+RateGroupOut
+0
+Beacon
+Sched
+0

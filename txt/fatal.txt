@@ -1,6 +1,6 @@
 EventLogger
 fatalAnnounce
 0
-FaultHandler
+FatalHandler
 fatalReceive
 0

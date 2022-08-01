@@ -16,7 +16,7 @@
     ],
     [
       {
-        "instanceName" : "FaultHandler",
+        "instanceName" : "FatalHandler",
         "inputPorts" : [
           {
             "name" : "fatalReceive",
