@@ -2,154 +2,154 @@ Accelerometer
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 Gyroscope
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 Magnetometer
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 GPS
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 HIPO
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 SolarArray
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 Power
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 ClockSynch
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 Thermal
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 MemoryScrubber
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 CommandDisp
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 CommandSeq
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 FileDownlink
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 FileManager
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 FileUplink
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 BufferManager
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 Health
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 CoreRateGroup
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 PayloadRateGroup
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 ADCSRateGroup
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 BeaconRateGroup
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 Camera
 telemOut
 0
 Telemetry
-telemIn
+tlmRecv
 0
 
 Telemetry
@@ -158,3 +158,10 @@ pktSend
 ComLogger
 comIn
 0
+
+Beacon
+getTelemetry
+0
+Telemetry
+tlmGet
+1

@@ -5,6 +5,13 @@ CommandDisp
 compCmdStat
 0
 
+CommandDisp
+cmdRespOut
+0
+CommandDisp
+compCmdStat
+0
+
 CommandSeq
 cmdRespOut
 0

@@ -1,131 +1,131 @@
 Accelerometer
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 Gryoscope
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 Magnetometer
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 GPS
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 SolarArray
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 HIPO
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 Camera
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 Power
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 Thermal
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 ClockSynch
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 MemoryScrubber
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 Beacon
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 UHF
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 Health
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 BufferManager
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 Time
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 FileManager
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 PacketFramer
-eventOut
+textOut
 0
 ActiveTextLogger
 logText
 0
 
 PacketDeframer
-eventOut
+textOut
 0
 ActiveTextLogger
 logText

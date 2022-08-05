@@ -3,10 +3,17 @@
     [
       {
         "instanceName" : "ParameterDatabase",
-        "inputPorts" : [],
+        "inputPorts" : [
+          {
+            "name" : "paramSet",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
         "outputPorts" : [
           {
-            "name" : "paramOut",
+            "name" : "paramGet",
             "portNumbers" : [
               0,
               1,
@@ -27,7 +34,14 @@
             ]
           }
         ],
-        "outputPorts" : []
+        "outputPorts" : [
+          {
+            "name" : "paramOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
       },
       {
         "instanceName" : "Thermal",
@@ -39,7 +53,14 @@
             ]
           }
         ],
-        "outputPorts" : []
+        "outputPorts" : [
+          {
+            "name" : "paramOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
       },
       {
         "instanceName" : "HIPO",
@@ -51,11 +72,32 @@
             ]
           }
         ],
-        "outputPorts" : []
+        "outputPorts" : [
+          {
+            "name" : "paramOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
       }
     ]
   ],
   "connections" : [
+    [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
     [
       [
         0,
@@ -65,6 +107,48 @@
       ],
       [
         1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
         0,
         0,
         0
@@ -80,20 +164,6 @@
       [
         1,
         1,
-        0,
-        0
-      ]
-    ],
-    [
-      [
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        2,
         0,
         0
       ]

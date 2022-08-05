@@ -6,7 +6,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -18,7 +18,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -30,7 +30,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -42,7 +42,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -54,7 +54,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -66,7 +66,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -78,7 +78,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -90,7 +90,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -102,7 +102,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -114,7 +114,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -126,7 +126,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -138,7 +138,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -150,7 +150,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -162,7 +162,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -174,7 +174,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -186,7 +186,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -198,7 +198,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -210,7 +210,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]
@@ -222,7 +222,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "eventOut",
+            "name" : "textOut",
             "portNumbers" : [
               0
             ]

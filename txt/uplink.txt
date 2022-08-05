@@ -2,8 +2,15 @@ UHF
 receiveFrame
 0
 PacketDeframer
-frameIn
+framedIn
 0
+
+UHF
+frameAllocate
+1
+BufferManager
+bufferGetCallee
+1
 
 PacketDeframer
 comOut
@@ -40,9 +47,16 @@ BufferManager
 bufferSendIn
 0
 
-PacketDeframer
-cmdResponseIn
-4
 CommandDisp
 compCmdStat
+0
+PacketDeframer
+cmdResponseIn
+1
+
+PacketDeframer
+framedDeallocate
+4
+BufferManager
+bufferSendIn
 0

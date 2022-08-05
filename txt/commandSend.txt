@@ -1,152 +1,152 @@
 CommandDisp
-cmdSend
+compCmdSend
 0
 Health
 cmdRecv
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 1
 CommandSeq
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 2
 FileDownlink
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 3
 FileUplink
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 4
 FileManager
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 5
 EventLogger
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 6
 ParameterDatabase
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 7
 PolyDatabase
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 8
 BufferManager
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 9
 ClockSynch
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 10
 Power
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 11
 Thermal
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 12
 MemoryScrubber
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 13
 HIPO
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 14
 SolarArray
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 15
 Camera
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 16
 Beacon
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 17
 UHF
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 18
 Accelerometer
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 19
 Magnetometer
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 20
 Gyroscope
 cmdIn
 0
 
 CommandDisp
-cmdSend
+compCmdSend
 21
 GPS
 cmdIn

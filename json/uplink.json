@@ -10,6 +10,12 @@
             "portNumbers" : [
               0
             ]
+          },
+          {
+            "name" : "frameAllocate",
+            "portNumbers" : [
+              1
+            ]
           }
         ]
       }
@@ -19,23 +25,29 @@
         "instanceName" : "PacketDeframer",
         "inputPorts" : [
           {
-            "name" : "frameIn",
+            "name" : "framedIn",
             "portNumbers" : [
               0
+            ]
+          },
+          {
+            "name" : "cmdResponseIn",
+            "portNumbers" : [
+              1
             ]
           }
         ],
         "outputPorts" : [
           {
-            "name" : "cmdResponseIn",
-            "portNumbers" : [
-              4
-            ]
-          },
-          {
             "name" : "comOut",
             "portNumbers" : [
               0
+            ]
+          },
+          {
+            "name" : "framedDeallocate",
+            "portNumbers" : [
+              4
             ]
           },
           {
@@ -64,19 +76,20 @@
         "instanceName" : "CommandDisp",
         "inputPorts" : [
           {
-            "name" : "compCmdStat",
-            "portNumbers" : [
-              0
-            ]
-          },
-          {
             "name" : "seqCmdBuff",
             "portNumbers" : [
               0
             ]
           }
         ],
-        "outputPorts" : []
+        "outputPorts" : [
+          {
+            "name" : "compCmdStat",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
       },
       {
         "instanceName" : "FileUplink",
@@ -103,15 +116,15 @@
         "instanceName" : "BufferManager",
         "inputPorts" : [
           {
-            "name" : "bufferSendIn",
-            "portNumbers" : [
-              0
-            ]
-          },
-          {
             "name" : "bufferGetCallee",
             "portNumbers" : [
               1
+            ]
+          },
+          {
+            "name" : "bufferSendIn",
+            "portNumbers" : [
+              0
             ]
           }
         ],
@@ -120,62 +133,6 @@
     ]
   ],
   "connections" : [
-    [
-      [
-        1,
-        0,
-        2,
-        3
-      ],
-      [
-        3,
-        0,
-        1,
-        1
-      ]
-    ],
-    [
-      [
-        2,
-        1,
-        0,
-        0
-      ],
-      [
-        3,
-        0,
-        0,
-        0
-      ]
-    ],
-    [
-      [
-        0,
-        0,
-        0,
-        0
-      ],
-      [
-        1,
-        0,
-        0,
-        0
-      ]
-    ],
-    [
-      [
-        1,
-        0,
-        3,
-        1
-      ],
-      [
-        3,
-        0,
-        0,
-        0
-      ]
-    ],
     [
       [
         1,
@@ -194,14 +151,28 @@
       [
         1,
         0,
-        1,
-        0
+        2,
+        3
       ],
+      [
+        3,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
       [
         2,
         0,
-        1,
+        0,
         0
+      ],
+      [
+        1,
+        0,
+        1,
+        1
       ]
     ],
     [
@@ -209,12 +180,82 @@
         1,
         0,
         0,
-        4
+        0
       ],
       [
         2,
         0,
         0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1,
+        4
+      ],
+      [
+        3,
+        0,
+        1,
         0
       ]
     ]

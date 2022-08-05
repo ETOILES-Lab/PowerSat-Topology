@@ -264,6 +264,18 @@
             ]
           }
         ]
+      },
+      {
+        "instanceName" : "Beacon",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "getTelemetry",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
       }
     ],
     [
@@ -271,9 +283,15 @@
         "instanceName" : "Telemetry",
         "inputPorts" : [
           {
-            "name" : "telemIn",
+            "name" : "tlmRecv",
             "portNumbers" : [
               0
+            ]
+          },
+          {
+            "name" : "tlmGet",
+            "portNumbers" : [
+              1
             ]
           }
         ],
@@ -595,6 +613,20 @@
         0,
         0,
         0
+      ]
+    ],
+    [
+      [
+        0,
+        22,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1
       ]
     ],
     [

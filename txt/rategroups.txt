@@ -6,14 +6,14 @@ CycleIn
 0
 
 PayloadRateGroup
-RateGroupOut
+RateGroupMemberOut
 0
 SolarArray
 Sched
 0
 
 PayloadRateGroup
-RateGroupOut
+RateGroupMemberOut
 1
 HIPO
 Sched
@@ -27,63 +27,63 @@ CycleIn
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 0
 MemoryScrubber
 Sched
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 1
 ClockSynch
 Sched
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 2
 Thermal
 Sched
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 3
 Power
 Sched
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 4
 BufferManager
 Sched
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 5
 FileDownlink
 Sched
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 6
 Telemetry
 Sched
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 7
 CommandSeq
 Sched
 0
 
 CoreRateGroup
-RateGroupOut
+RateGroupMemberOut
 8
 Health
 Sched
@@ -97,28 +97,28 @@ CycleIn
 0
 
 ADCSRateGroup
-RateGroupOut
+RateGroupMemberOut
 0
 Accelerometer
 Sched
 0
 
 ADCSRateGroup
-RateGroupOut
+RateGroupMemberOut
 1
 Gyroscope
 Sched
 0
 
 ADCSRateGroup
-RateGroupOut
+RateGroupMemberOut
 2
 Magnetometer
 Sched
 0
 
 ADCSRateGroup
-RateGroupOut
+RateGroupMemberOut
 5
 GPS
 Sched
@@ -132,7 +132,7 @@ CycleIn
 0
 
 BeaconRateGroup
-RateGroupOut
+RateGroupMemberOut
 0
 Beacon
 Sched

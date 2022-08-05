@@ -235,7 +235,7 @@
         "instanceName" : "Health",
         "inputPorts" : [
           {
-            "name" : "pingRecv",
+            "name" : "pingReturn",
             "portNumbers" : [
               0
             ]

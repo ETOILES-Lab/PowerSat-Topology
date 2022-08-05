@@ -6,7 +6,7 @@
         "inputPorts" : [],
         "outputPorts" : [
           {
-            "name" : "cmdSend",
+            "name" : "compCmdSend",
             "portNumbers" : [
               0,
               1,

@@ -57,13 +57,13 @@
         ],
         "outputPorts" : [
           {
-            "name" : "frameAllocate",
+            "name" : "framedAllocate",
             "portNumbers" : [
               0
             ]
           },
           {
-            "name" : "frameOut",
+            "name" : "framedOut",
             "portNumbers" : [
               1
             ]
@@ -90,7 +90,7 @@
         ],
         "outputPorts" : [
           {
-            "name" : "bufferOut",
+            "name" : "bufferDeallocate",
             "portNumbers" : [
               3
             ]

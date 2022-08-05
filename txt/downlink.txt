@@ -12,16 +12,15 @@ PacketFramer
 comIn
 0
 
-
 PacketFramer
-frameAllocate
+framedAllocate
 0
 BufferManager
 bufferAllocate
 0
 
 PacketFramer
-frameOut
+framedOut
 1
 UHF
 sendFrame
@@ -42,7 +41,7 @@ bufferReturn
 0
 
 UHF
-bufferOut
+bufferDeallocate
 3
 BufferManager
 bufferSendIn

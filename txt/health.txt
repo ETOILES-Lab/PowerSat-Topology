@@ -9,7 +9,7 @@ Telemetry
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -23,7 +23,7 @@ ADCSRateGroup
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -37,7 +37,7 @@ CoreRateGroup
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -51,7 +51,7 @@ PayloadRateGroup
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -65,7 +65,7 @@ BeaconRateGroup
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -79,7 +79,7 @@ EventLogger
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -93,7 +93,7 @@ CommandDisp
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -107,7 +107,7 @@ CommandSeq
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -121,7 +121,7 @@ FatalHandler
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -135,7 +135,7 @@ FileDownlink
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -149,7 +149,7 @@ FileUplink
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -163,7 +163,7 @@ FileManager
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
 
 Health
@@ -177,9 +177,8 @@ ParameterDatabase
 pingOut
 0
 Health
-pingRecv
+pingReturn
 0
-
 
 
 
